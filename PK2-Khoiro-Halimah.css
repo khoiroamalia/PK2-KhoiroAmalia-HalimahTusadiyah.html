@@ -1,1 +1,176 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+/* Tambahkan CSS untuk tag <header> */
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #a7e3eb;
+}
+.logo {
+  width: 45px;
+  margin-top: 20px;
+}
+.login{
+  color:#141549
+}
+.container-navbar{
+  background-color: #a7e3eb;
+  width: 40%;
+  height: 100px;
+}
+.header-left {
+  float: left;
+  letter-spacing: 0.2cm;
+}
 
+/* Tambahkan CSS untuk header-right */
+.header-right {
+  float: right;
+  justify-content: right;
+  align-items: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk header-right pada saat ditunjuk kursor */
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  line-height: 40px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+/* Tambahkan CSS untuk top-wrapper */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('https://htn.uin-malang.ac.id/wp-content/uploads/2021/01/Foto-depan-UIN.jpg');
+  background-size: cover; 
+}
+.container h1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.container h2{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.container p{
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.top-wrapper h1 {
+    color:white;
+    opacity: 1;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.top-wrapper h2 {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  opacity: 1;
+  font-size: 30px;
+  margin-bottom: 3px;
+  position: center;
+}
+.btn {
+  padding: 12px 24px;
+  color: rgba(1, 7, 34, 0.699);
+  display: inline-block;
+  opacity: 1;
+  border-radius: 10px;
+  font-style: times new roman;
+}
+.btn:hover {
+  opacity: 1;
+}
+/* Tambahkan CSS untuk signup */
+.signup {
+  background-color: #fffc47;
+}
+
+
+/* Tambahkan CSS untuk btn-wrapper */
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam class btn-wrapper */
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.fa {
+  margin-right: 5px;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.heading {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.heading h3 {
+  font-weight: normal;
+}
+lesson-wrapper h3{
+  
+}
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #070707;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+/* tambahkan CSS untuk tag <h3> didalam heading */
+.heading h4 {
+  font-weight: normal;
+}
+/* Tambahkan CSS untuk tag <img> yang berada didalam <footer> */
+footer img {
+  width: 125px;
+}
+
+/* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+/* Tambahkan CSS untuk tag <footer> */
+footer {
+  padding-top: 30px;
+}
